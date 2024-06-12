@@ -5,7 +5,7 @@ const Login = (props) => {
   return (
     <div className='flex justify-center flex-col max-w-[80%] relative z-[2]'>
         <div className='flex justify-center mb-8'>
-            <h1 className='text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8 text-center'>Welcome to my first dapp, this is a voting application built on the ethereum blockchain</h1>
+            <h1 className='text-2xl sm:text-3xl md:text-5xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8 text-center'>Welcome to my first dapp, this is a voting application built on the ethereum blockchain</h1>
         </div>
         <div className='flex justify-center'>
         <button className="bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-sm sm:text-md md:text-xl font-semibold leading-6  text-white inline-block" onClick={props.connectWithMetamask}>
